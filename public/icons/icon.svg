@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="120" fill="#002279"/>
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#D3B574" stroke-width="12"/>
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#D3B574" stroke-width="4" stroke-dasharray="10 6"/>
+  
+  <!-- Scale of Justice -->
+  <path d="M256 120 V340 M170 340 H342" stroke="#D3B574" stroke-width="14" stroke-linecap="round"/>
+  <path d="M160 170 H352" stroke="#D3B574" stroke-width="12" stroke-linecap="round"/>
+  
+  <!-- Left Pan -->
+  <path d="M160 170 L110 240 M160 170 L210 240" stroke="#D3B574" stroke-width="6"/>
+  <path d="M100 240 Q160 280 220 240 Z" fill="#D3B574"/>
+  
+  <!-- Right Pan -->
+  <path d="M352 170 L302 240 M352 170 L402 240" stroke="#D3B574" stroke-width="6"/>
+  <path d="M292 240 Q352 280 412 240 Z" fill="#D3B574"/>
+  
+  <!-- Book Base -->
+  <path d="M140 370 C200 350 256 370 256 370 C256 370 312 350 372 370 V420 C312 400 256 420 256 420 C256 420 200 400 140 420 Z" fill="#D3B574" stroke="#002279" stroke-width="4"/>
+  
+  <text x="256" y="475" text-anchor="middle" fill="#D3B574" font-family="Vazirmatn, sans-serif" font-weight="900" font-size="38">دفترخانه ۶۶۲</text>
+</svg>

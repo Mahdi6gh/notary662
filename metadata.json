@@ -1,0 +1,6 @@
+{
+  "name": "محاسبه‌گر دفتر اسناد رسمی ۶۶۲",
+  "description": "محاسبه‌گر تخصصی هزینه اسناد غیرمنقول، مالی و رهنی، اجاره و سهم‌الارث دفتر اسناد رسمی ۶۶۲ تهران",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

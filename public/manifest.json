@@ -1,0 +1,71 @@
+{
+  "name": "سامانه محاسبه هزینه اسناد و سهم‌الارث — دفتر اسناد رسمی ۶۶۲ تهران",
+  "short_name": "دفترخانه ۶۶۲",
+  "description": "سامانه محاسبه آنلاین تعرفه خدمات ثبتی، حق‌التحریر اسناد قطعی، رهنی، اجاره و محاسبه دقیق سهم‌الارث متوفی (دفتر اسناد رسمی ۶۶۲ تهران — سردفتر: خانم لیلا فرجزاده)",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#001755",
+  "theme_color": "#002279",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "fa-IR",
+  "dir": "rtl",
+  "categories": [
+    "utilities",
+    "business",
+    "finance",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "محاسبه ملک",
+      "short_name": "املاک",
+      "description": "محاسبه حق‌التحریر اسناد قطعی و انتقال ملک",
+      "url": "/?tab=property"
+    },
+    {
+      "name": "محاسبه سهم‌الارث",
+      "short_name": "ارث",
+      "description": "محاسبه دقیق تقسیم ارث متوفی بین ورثه",
+      "url": "/?tab=inheritance"
+    },
+    {
+      "name": "اسناد رهنی",
+      "short_name": "رهن و وام",
+      "description": "محاسبه هزینه اسناد رهنی و ترهین بانکی",
+      "url": "/?tab=mortgage"
+    }
+  ]
+}

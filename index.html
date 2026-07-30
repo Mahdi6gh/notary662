@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#002279" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="دفترخانه ۶۶۲" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+    <link rel="icon" type="image/svg+xml" href="/icons/icon.svg" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <script>
+      (function() {
+        try {
+          let desc = Object.getOwnPropertyDescriptor(window, 'fetch');
+          if (!desc && Object.getPrototypeOf(window)) {
+            desc = Object.getOwnPropertyDescriptor(Object.getPrototypeOf(window), 'fetch');
+          }
+          if (desc && desc.get && !desc.set) {
+            let currentFetch = window.fetch;
+            Object.defineProperty(window, 'fetch', {
+              get() { return currentFetch; },
+              set(v) { currentFetch = v; },
+              configurable: true,
+              enumerable: true
+            });
+          }
+        } catch (e) {
+          // fallback ignore
+        }
+      })();
+    </script>
+    <title>محاسبه‌گر هزینه اسناد و سهم‌الارث | دفتر اسناد رسمی ۶۶۲ تهران</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#FAF8F6] text-[#002279] font-['Vazirmatn',sans-serif] antialiased selection:bg-[#002279]/20 selection:text-[#002279]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            console.log('Notary 662 PWA ServiceWorker registration successful with scope: ', registration.scope);
+          }, function(err) {
+            console.log('ServiceWorker registration failed: ', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+
